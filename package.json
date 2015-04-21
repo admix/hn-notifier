@@ -9,6 +9,9 @@
   "author": "Alexander Snurnikov",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^2.2.4"
+    "firebase": "^2.2.4",
+    "habitat": "1.1.0",
+    "nodemailer": "1.1.1",
+    "nodemailer-dkim": "0.1.4"
   }
 }
