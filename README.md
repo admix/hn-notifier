@@ -8,7 +8,7 @@
 * [nodemailer](https://github.com/andris9/Nodemailer) - email module
 
 ##### Description:
-Hacker News notifier was built in order to get notifications if your domain has been posted on Hacker News. Tones of articles are going through the Hacker News (1 article per 5-10seconds) and you don't want to track all of those manually and hn-notifier comes to place! :)
+Hacker News notifier was built in order to get notifications if your domain has been posted on Hacker News. Tons of articles are going through the Hacker News (1 article per 5-10seconds) and you don't want to track all of those manually and hn-notifier comes to place! :)
 
 ### Step 2 - Setup and installation
 
