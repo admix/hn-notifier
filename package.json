@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "firebase": "^2.2.4",
-    "habitat": "1.1.0",
+    "habitat": "3.1.2",
     "nodemailer": "1.1.1",
     "nodemailer-dkim": "0.1.4"
   }
