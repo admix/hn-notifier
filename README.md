@@ -15,20 +15,24 @@ Hacker News notifier was built in order to get notifications if your domain has 
 ##### Setup:
 In the project you can find ```env.dev``` file with the mockup that you need to fill in.
 
-1. ```cp env.dev .env``` - creates a copy of a ```env.dev``` file
+1. Run ```cp env.dev .env``` - creates a copy of a ```env.dev``` file
 2. Fill in your credentials in ```.env``` file for email and domain you want to look for in HN
+   
+    ```
+    export EMAIL=example@gmail.com
+    export PASS=password
+    export DOMAIN=gmail.com
+    export KEYSELECTOR=google
+    export NOTIFY=github.com #set the domain you want to be notified
+    ```
 
-```
-export EMAIL=example@gmail.com
-export PASS=password
-export DOMAIN=gmail.com
-export KEYSELECTOR=google
-export NOTIFY=github.com #set the domain you want to be notified
-```
-3. ```npm install``` to download all the dependencies with npm manager
+3. Run ```npm install``` to download all the dependencies with npm manager
 
 ##### Start:
 ```node index.js``` - start the app
+
+#### Email example:
+![Alt text](hn.png)
 
 ## PS section
 You can use [pm2](https://github.com/Unitech/pm2) module to run your app on the background
