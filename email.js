@@ -35,8 +35,8 @@ module.exports = {
     //     //privateKey: fs.readFileSync('private.pem')
     // }));
 
-    var htmlStart = '<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width"><title>Hacker News Notifier</title>';
-    var htmlBody = '<p>Your domain ' + hn_domain + ' has been posted on Hacker News by <strong>'+details.by+'</strong>.<br><strong>Time: </strong>'+ formattedTime +' <br><strong>Title: </strong>' + details.title + ' <br><strong>Link used: </strong>'+details.url+'</p>';
+    var htmlStart = '<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width"><title>Hacker News Notifier</title></head>';
+    var htmlBody = '<body><p>Your domain ' + hn_domain + ' has been posted on Hacker News by <strong>'+details.by+'</strong>.<br><strong>Time: </strong>'+ formattedTime +' <br><strong>Title: </strong>' + details.title + ' <br><strong>Link used: </strong>'+details.url+'<br><strong>Link on HN: </strong><a href='+details.link+'>'+details.title+'</a></p>';
     var htmlEnd = '</body></html>';
 
     var body = htmlStart + htmlBody + htmlEnd;

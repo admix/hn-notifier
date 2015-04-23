@@ -21,6 +21,7 @@ newStoriesRef.on("value", function(snapshot) {
     storyRef.off();
 
     if(host === notificationDomain) {
+      story['link'] = 'https://news.ycombinator.com/item?id=' + story.id;
       console.log(story);
       email.sendNotificationEmail(story, host);
     }
