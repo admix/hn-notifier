@@ -14,8 +14,10 @@ Hacker News notifier was built in order to get notifications if your domain has 
 
 ##### Setup:
 In the project you can find ```env.dev``` file with the mockup that you need to fill in.
+
 1. ```cp env.dev .env``` - creates a copy of a ```env.dev``` file
 2. Fill in your credentials in ```.env``` file for email and domain you want to look for in HN
+
 ```
 export EMAIL=example@gmail.com
 export PASS=password
