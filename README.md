@@ -35,7 +35,8 @@ In the project you can find ```env.dev``` file with the mockup that you need to 
 ![Alt text](hn.png)
 
 ## PS section
-You can use [pm2](https://github.com/Unitech/pm2) module to run your app on the background
+You can use [pm2](https://github.com/Unitech/pm2) module to run your app on the background:
+
 1. Download and install pm2 -> ```npm install pm2 -g```
 2. Start app with ```pm2 start index.js```
 
